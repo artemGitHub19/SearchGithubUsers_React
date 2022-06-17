@@ -1,0 +1,11 @@
+.rightChevron {
+    margin-left: 2px;
+}
+
+.leftChevron {
+    margin-right: 2px;
+}
+
+img {    
+    user-select: none;      
+}

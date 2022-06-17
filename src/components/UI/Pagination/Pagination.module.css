@@ -1,0 +1,91 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;   
+    padding: 0px;    
+    min-height: 25px;
+    margin: 24px 7.395% 28px 0;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 830px) {
+    
+    .pagination {        
+        margin: 24px 3.7% 28px 0 !important;
+    }
+
+    .pagination_info, .goToPage{
+        order: 0;
+    }
+
+    .pagination__items {
+        order: 1; 
+    }
+
+    .pagination_info {        
+        padding-right: 4px !important;
+    }
+
+    .pagination__items, .pagination_info, .goToPage{
+        margin-bottom: 8px; 
+    }
+
+    .goToPage{
+        margin-right: 8px; 
+    }
+}  
+
+@media all and (max-width: 1000px) {   
+    
+    .pagination__items, .pagination_info, .goToPage{
+        margin-bottom: 8px; 
+    }
+
+    .pagination_info {        
+        margin-right: 4px !important;
+    }
+
+    .goToPage {  
+        margin-left: 4px !important;
+    }
+}  
+
+.pagination_info, 
+.paginationItem, 
+.selectedPaginationItem, 
+.goToPage,
+.selectPage {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;  
+}
+
+.pagination_info {
+    display: flex;
+    align-items: center;
+    color: #808080;
+    margin-right: 16px;
+}
+
+.pagination__items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;  
+}
+
+.goToPage { 
+    color: #808080;  
+    margin-left: 16px;  
+}
+
+.selectPage {  
+    color: #808080; 
+}
+
+select:focus {    
+    outline:  none;
+}

@@ -1,0 +1,120 @@
+.mainUserInfo {      
+    padding-top: 40px;    
+    padding-left: 12.933%;
+}
+
+.repositoriesNotFoundUserInfo {      
+    padding-top: 40px;    
+    padding-left: 14.775%;  
+}
+
+.userPhotoWrapper {    
+    position: relative;
+    width: 280px;
+    height: 280px;    
+}
+
+.userPhoto {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+} 
+
+@media all and (max-width: 710px) {
+
+    .mainUserInfo {      
+        padding-top: 20px !important;    
+        padding-left: 4.1% !important;  
+    }
+
+    .repositoriesNotFoundUserInfo {      
+        padding-top: 20px !important;    
+        padding-left: 4.1% !important;  
+    }
+}  
+
+.userInfo {   
+    margin-top: 29px;     
+}
+
+.userInfo__name {    
+    min-height: 34px; 
+    overflow: auto;     
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%; 
+    color: #000000;       
+}
+
+.userInfo__username {
+    display: block;
+    margin-top: 12px;
+    min-height: 28.74px;
+    overflow: auto;  
+}
+
+.profileLink {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0064EB;
+}
+
+.followWrapper {
+    margin-top: 25px;
+    display: flex;   
+}
+
+.followers {
+    overflow: auto;
+    display: flex;    
+    margin-right: 16px;
+    min-height: 24.24px; 
+}
+
+.groupImageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24.08px;
+    height: 24px;            
+}
+
+.groupImage {       
+    width: 22.08px;
+    height: 14px;  
+} 
+
+.followers__text, .following__text {  
+    margin-left: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.following {
+    overflow: auto;
+    display: flex;  
+    min-height: 24.24px;   
+}
+
+.personImageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24.08px;
+    height: 24px;   
+}
+
+.personImage {       
+    width: 16.06px;
+    height: 16px;     
+}

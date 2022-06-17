@@ -1,0 +1,37 @@
+.imageButton {  
+    width: 24px;
+    height: 24px;    
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+}
+
+.imageButton:hover { 
+    background-color: #306dbd43;
+    cursor: pointer;   
+}
+
+.paginationItem {
+    display: flex;
+    align-items: center;
+    color: #808080;   
+    padding: 2px 6px;
+    margin: 0 2px;
+}
+
+.paginationItem:hover {    
+    background-color: #306dbd43;
+    border-radius: 3px; 
+    cursor: pointer;   
+}
+
+.selectedPaginationItem {   
+    background: #0064EB;
+    border-radius: 3px;
+    padding: 2px 6px;
+    margin: 0 2px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;    
+}

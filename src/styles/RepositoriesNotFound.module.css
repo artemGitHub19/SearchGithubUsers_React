@@ -1,0 +1,76 @@
+.main {
+    display: flex;
+    position: absolute;   
+    left: 0;   
+    top: 72px;   
+    width: 100%; 
+    min-height: calc(100vh - 72px);
+    background: #F9F9F9; 
+}
+
+@media all and (max-width: 710px) {
+    
+    .main {
+        flex-direction: column !important; 
+    }    
+
+    .userInfo {      
+        width: auto !important; 
+        min-width: 270px !important;               
+    }
+
+    .repositoriesInfoWrapper {
+        width: auto !important; 
+             
+    }
+
+    .repositoriesInfo {
+        margin-top: 40px !important;
+    }
+}
+
+.userInfo {
+    box-sizing: border-box;
+    width: 27.75%;
+    min-width: 330px;    
+    min-height: 474px; 
+}
+
+.repositoriesInfoWrapper {
+    width: 72.25%;
+    display: flex;
+    justify-content: center;
+}
+
+.repositoriesInfo {
+    margin-top: 197px;
+    width: 243px;
+    height: 165px;
+}
+
+.imageWrapper {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+}
+
+.image {
+    width: 76px;
+    height: 62px;    
+    position: relative;
+    left: 15.45%;
+    right: 15.45%;
+    top: 21.82%;
+    bottom: 21.82%;
+}
+
+.repositoriesInfo__text {
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    color: #808080;
+}

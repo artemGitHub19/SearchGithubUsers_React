@@ -1,0 +1,32 @@
+.repositories__title {
+    margin: 28px 0 5px 2px;       
+    height: 42px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #000000;
+}
+
+@media all and (max-width: 710px) {
+    .repositories { 
+        padding-left: 4.1% !important;      
+    }
+
+    .loaderWrapper {
+        margin-top: 100px;
+    }
+}  
+
+.error {
+    text-align: center;
+    color: red;
+    padding-top: 100px;
+    font-size: larger;
+}
+
+.loaderWrapper {
+    height: 100%;
+    width: 100%;
+}

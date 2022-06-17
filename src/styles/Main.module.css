@@ -1,0 +1,61 @@
+.main {
+    display: flex;
+    position: absolute;   
+    left: 0;   
+    top: 72px;   
+    width: 100%; 
+    min-height: calc(100vh - 72px);
+    background: #F9F9F9; 
+}
+
+@media all and (max-width: 710px) {
+    
+    .main {
+        flex-direction: column !important; 
+    }
+
+    .userInfo {      
+        width: auto !important;  
+        min-width: 270px !important;
+    }
+
+    .repositories {        
+        width: auto !important; 
+    }
+
+    .userInfo__loader {
+        margin-top: 100px !important; 
+    }
+
+    .repositories__container__loader {
+        margin-top: 100px !important; 
+    }
+}  
+
+.userInfo {      
+    box-sizing: border-box;
+    width: 31.7%; 
+    min-width: 344px;  
+    min-height: 474px;
+}
+
+.repositories {
+    width: 68.3%; 
+}
+
+.userInfo__loader {
+    height: 100%;
+    width: 100%;
+}
+
+.repositories__container__loader {
+    height: 100%;
+    width: 100%;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    padding-top: 100px;
+    font-size: larger;
+}
