@@ -1,7 +1,7 @@
 import { Octokit as OctokitRest } from "@octokit/rest";
 import { Octokit as OctokitCore } from "@octokit/core";
 
-const authKey = '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';
+const authKey = '';
 
 export default class GitHubService {
     static async getUserInformation(userName) {
