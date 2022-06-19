@@ -18,6 +18,7 @@
     width: 280px;
     height: 280px;
     border-radius: 50%;
+    display: none;
 } 
 
 @media all and (max-width: 710px) {

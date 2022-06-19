@@ -12,8 +12,8 @@ const UserInformation = function ({data, wrapperClassName}) {
     const [isUserImageLoading, setIsUserImageLoading] = useState(true);
 
     function handleUserImageLoad() {        
-        let elem = document.querySelector('#userimage');        
-        elem.removeAttribute('hidden');
+        let elem = document.querySelector('#userimage');   
+        elem.style.display = 'block'; 
         setIsUserImageLoading(false);
     }
 
@@ -27,8 +27,7 @@ const UserInformation = function ({data, wrapperClassName}) {
 
                 <img    id='userimage'
                         className={styles['userPhoto']}
-                        src={data.photoUrl} 
-                        hidden                        
+                        src={data.photoUrl}          
                         alt='user icon' 
                         onLoad={handleUserImageLoad}></img> 
             </div>
